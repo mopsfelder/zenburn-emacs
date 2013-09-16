@@ -767,9 +767,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(web-mode-warning-face ((t (:inherit font-lock-warning-face))))
    `(web-mode-whitespaces-face ((t (:background ,zenburn-red))))
 ;;;;; whitespace-mode
-   `(whitespace-space ((t (:background ,zenburn-bg+1 :foreground ,zenburn-bg+1))))
-   `(whitespace-hspace ((t (:background ,zenburn-bg+1 :foreground ,zenburn-bg+1))))
-   `(whitespace-tab ((t (:background ,zenburn-red-1))))
+   `(whitespace-space ((t (:background ,zenburn-bg :foreground ,zenburn-bg+1))))
+   `(whitespace-hspace ((t (:background ,zenburn-bg :foreground ,zenburn-bg+1))))
+   `(whitespace-tab ((t (:background ,zenburn-bg :foreground ,zenburn-red-1))))
    `(whitespace-newline ((t (:foreground ,zenburn-bg+1))))
    `(whitespace-trailing ((t (:background ,zenburn-red))))
    `(whitespace-line ((t (:background ,zenburn-bg :foreground ,zenburn-magenta))))
